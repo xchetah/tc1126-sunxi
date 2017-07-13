@@ -1,0 +1,11 @@
+#
+#  Touchscreen driver configuration
+#
+
+config  TOUCHSCREEN_TC1126_TS
+       tristate  "tc1126 touchscreen driver"      
+       depends on INPUT && I2C && ( ARCH_SUN8IW3P1 || ARCH_SUN8IW5P1 || ARCH_SUN8IW1P1)
+       default m
+       help
+         tc1126 touchscreen driver    
+

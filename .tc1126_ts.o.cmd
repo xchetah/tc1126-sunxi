@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/tc1126/tc1126_ts.o := arm-linux-gnueabi-ld -EL    -r -o drivers/input/touchscreen/tc1126/tc1126_ts.o drivers/input/touchscreen/tc1126/cn1100_a23_a33.o drivers/input/touchscreen/tc1126/debug_proc.o drivers/input/touchscreen/tc1126/TC1126_data.o drivers/input/touchscreen/tc1126/TC1126_hwService.o 
