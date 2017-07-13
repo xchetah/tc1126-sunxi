@@ -1,1 +1,0 @@
-cmd_drivers/input/touchscreen/tc1126/tc1126_ts.ko := arm-linux-gnueabi-ld -EL -r  -T /home/eyad/Desktop/lichee/linux-3.4/scripts/module-common.lds --build-id  -o drivers/input/touchscreen/tc1126/tc1126_ts.ko drivers/input/touchscreen/tc1126/tc1126_ts.o drivers/input/touchscreen/tc1126/tc1126_ts.mod.o
